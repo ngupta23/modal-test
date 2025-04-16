@@ -1,6 +1,6 @@
 import pytest
 
-from python_uv_template.hello import main
+from modal_test.hello import main
 
 
 def test_hello():

@@ -1,11 +1,11 @@
 [project]
-name = "python-uv-template"
+name = "modal-test"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "numpy",
+    "modal>=0.74.4",
 ]
 
 [dependency-groups]
@@ -22,11 +22,11 @@ requires = ["setuptools >= 61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["python_uv_template"]
+packages = ["modal_test"]
 
 [tool.coverage]
 branch = true
-source = ["python_uv_template"]
+source = ["modal_test"]
 
 [tool.coverage.run]
 omit = [
@@ -57,7 +57,7 @@ addopts = """
 [tool.ruff]
 fix = true
 line-length = 88
-src = ["python_uv_template"]
+src = ["modal_test"]
 
 [tool.ruff.format]
 docstring-code-format = true
@@ -67,5 +67,5 @@ docstring-code-line-length = 20
 select = ["E", "F", "UP", "B", "SIM", "I"]
 
 [tool.ruff.lint.isort]
-known-local-folder = ["python_uv_template"]
+known-local-folder = ["modal_test"]
 no-lines-before = ["local-folder"]

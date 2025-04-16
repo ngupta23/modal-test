@@ -1,8 +1,8 @@
-[![lint](https://github.com/ngupta23/python_uv_template/actions/workflows/lint.yaml/badge.svg)](https://github.com/ngupta23/python_uv_template/actions/workflows/lint.yaml)
-[![CI](https://github.com/ngupta23/python_uv_template/actions/workflows/ci.yaml/badge.svg)](https://github.com/ngupta23/python_uv_template/actions/workflows/ci.yaml)
+[![lint](https://github.com/ngupta23/modal_test/actions/workflows/lint.yaml/badge.svg)](https://github.com/ngupta23/modal_test/actions/workflows/lint.yaml)
+[![CI](https://github.com/ngupta23/modal_test/actions/workflows/ci.yaml/badge.svg)](https://github.com/ngupta23/modal_test/actions/workflows/ci.yaml)
 
-# python_uv_template
-A template for initializing a python repository managed with `uv`
+# modal_test
+A repo for testing modal
 
 ## 🛠️ Create the Development Environment & 🔧 Install Pre-commit Hooks
 
