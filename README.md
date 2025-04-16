@@ -42,6 +42,26 @@ uv add --dev <dev_lib>
 uv lock
 ```
 
+## Setup Modal
+
+* Check out the [Getting started](https://modal.com/docs/guide) section on Modal.
+
+```bash
+# Install modal (already done)
+# uv add modal
+
+# Authenticate with modal
+uv run modal setup
+```
+
+## Run on Modal
+
+```bash
+# Runs remotely on modal
+uv run modal run modal_test/get_started.py
+```
+
+
 ## 🏃 Run tests
 
 * pytest settings are in the `pyproject.toml` file so everything does not need to be specified in the command line.
