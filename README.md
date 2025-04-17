@@ -66,7 +66,7 @@ uv run modal setup
 
 ```bash
 # Runs ephemeral app remotely on modal
-uv run modal run modal_test/get_started.py --num 10
+uv run modal run modal_test/ephemeral.py --num 10
 ```
 
 #### Entrypoints for ephemeral Apps
