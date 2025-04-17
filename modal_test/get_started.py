@@ -10,5 +10,5 @@ def square(x):
 
 
 @app.local_entrypoint()
-def main():
-    print("the square is", square.remote(42))
+def main(num: int):  # mention datatype so command line args can be processed correctly.
+    print(f"The square of {num} is {square.remote(num)}")
