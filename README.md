@@ -119,6 +119,13 @@ def main(foo: int, bar: str):
 
 > Deployed Apps are named via the App constructor. Re-deploying an existing App (based on the name) will update it in place.
 
+```bash
+uv run  modal deploy -m modal_test.modal_deployment
+```
+
+* The above app can be accessed [via the web](https://ngupta23--fastapi-hello-app-fastapi-app.modal.run/). NOTE: Start the app on modal first before accessing the link.
+* Logs can be viewed [here](https://modal.com/apps/ngupta23/main/deployed/fastapi-hello-app).
+
 
 ## 🏃 Run tests
 
